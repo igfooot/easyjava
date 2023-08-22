@@ -7,7 +7,7 @@ public class StringBuilderDemo {
         s = s + "!";
         System.out.println(s.hashCode());
 
-        StringBuilder sb = new StringBuilder("hello world");
+        StringBuilder sb = new StringBuilder("hello world1");
         sb = sb.append("!");
         System.out.println(sb.hashCode());
 
